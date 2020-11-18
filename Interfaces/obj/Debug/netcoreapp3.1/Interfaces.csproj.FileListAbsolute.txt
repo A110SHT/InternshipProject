@@ -1,0 +1,12 @@
+D:\Professional files\Work\SocialITWorld\UserResponsive\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.deps.json
+D:\Professional files\Work\SocialITWorld\UserResponsive\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.dll
+D:\Professional files\Work\SocialITWorld\UserResponsive\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.pdb
+D:\Professional files\Work\SocialITWorld\UserResponsive\Interfaces\bin\Debug\netcoreapp3.1\ModelEntities.dll
+D:\Professional files\Work\SocialITWorld\UserResponsive\Interfaces\bin\Debug\netcoreapp3.1\ModelEntities.pdb
+D:\Professional files\Work\SocialITWorld\UserResponsive\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csprojAssemblyReference.cache
+D:\Professional files\Work\SocialITWorld\UserResponsive\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfoInputs.cache
+D:\Professional files\Work\SocialITWorld\UserResponsive\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfo.cs
+D:\Professional files\Work\SocialITWorld\UserResponsive\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csproj.CoreCompileInputs.cache
+D:\Professional files\Work\SocialITWorld\UserResponsive\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csproj.CopyComplete
+D:\Professional files\Work\SocialITWorld\UserResponsive\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.dll
+D:\Professional files\Work\SocialITWorld\UserResponsive\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.pdb

@@ -1,0 +1,16 @@
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\bin\Debug\netcoreapp3.1\Interfaces.dll
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\bin\Debug\netcoreapp3.1\ModelEntities.dll
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\bin\Debug\netcoreapp3.1\SQLHandlers.dll
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\obj\Debug\netcoreapp3.1\BusinessLogics.csprojAssemblyReference.cache
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\obj\Debug\netcoreapp3.1\BusinessLogics.AssemblyInfoInputs.cache
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\obj\Debug\netcoreapp3.1\BusinessLogics.AssemblyInfo.cs
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\bin\Debug\netcoreapp3.1\BusinessLogics.deps.json
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\bin\Debug\netcoreapp3.1\BusinessLogics.dll
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\bin\Debug\netcoreapp3.1\BusinessLogics.pdb
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\bin\Debug\netcoreapp3.1\Interfaces.pdb
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\bin\Debug\netcoreapp3.1\SQLHandlers.pdb
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\bin\Debug\netcoreapp3.1\ModelEntities.pdb
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\obj\Debug\netcoreapp3.1\BusinessLogics.csproj.CoreCompileInputs.cache
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\obj\Debug\netcoreapp3.1\BusinessLogics.csproj.CopyComplete
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\obj\Debug\netcoreapp3.1\BusinessLogics.dll
+D:\Professional files\Work\SocialITWorld\UserResponsive\BusinessLogics\obj\Debug\netcoreapp3.1\BusinessLogics.pdb

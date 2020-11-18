@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "7IzOtUWJKzjWtrMiAdczj8W36v3QFjZYrAoNlS9sL6kYQmStfIxmFNagmoxNdp9F6fQc7VK8apWO8BYfKZoAEg==",
+  "success": true,
+  "projectFilePath": "D:\\Professional files\\Work\\SocialITWorld\\UserResponsive\\ModalEntities\\ModelEntities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nabin Lav\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.8\\microsoft.aspnetcore.http.features.3.1.8.nupkg.sha512",
+    "C:\\Users\\Nabin Lav\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\Nabin Lav\\.nuget\\packages\\system.io.pipelines\\4.7.2\\system.io.pipelines.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,69 @@
+﻿ @model IEnumerable<ModelEntities.CustomerModel>
+
+@{
+    int i = 1;
+    ViewData["Title"] = "List";
+}
+
+<h1>List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <label>S.N.</label>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PictureName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contact)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PurchaseDate)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                <label>@i</label>
+            </td>
+            <td>
+                @foreach (string pic in @item.Pictures)
+                {
+                    <img src="~/Photo/@pic" height="75" width="75" class="rounded-circle" />
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PurchaseDate)
+            </td>
+
+            <td>
+                <a type="button" href="@Url.Action("AddorEdit","Customer",new { ObjCustomerId = item.CustomerId })" class="btn btn-success"><i class="fa fa-pencil-alt">Edit</i></a><br /><br />
+                <a onclick="DetailsPopup(' @Url.Action("Details","Customer",new { ObjCustomerId = item.CustomerId },Context.Request.Scheme)')" class="btn btn-info text-white"><i class="fa fa-info">Details</i></a><br /><br />
+                <a onclick="DeletePopup(' @Url.Action("Delete","Customer",new { ObjCustomerId = item.CustomerId },Context.Request.Scheme)')" class="btn btn-danger text-white">Remove</a>
+            </td>
+        </tr>
+    i++;
+}
+    </tbody>
+</table>

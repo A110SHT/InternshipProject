@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="jumbotron">
+    <h1 class="display-3">Hello, @User.Identity.Name!!!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <p class="lead">
+    </p>
+</div>
+<div class="card mb-3">
+    <h3 class="card-header">@User.Identity.Name</h3>
+    <div class="card-body">
+        <h5 class="card-title">Updated His Profile Picture</h5>
+        <h6 class="card-subtitle text-muted">Beautiful Day!!</h6>
+        <img src="~/Photo/70593d17-f2f5-4fdd-b83a-c3eed2c69733-edited.jpg" height="400" width=" 400" class="align-middle"/>
+    </div>
+
+    
+    <div class="card-footer text-muted">
+        2 days ago
+    </div>
+</div>

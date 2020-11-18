@@ -1,0 +1,20 @@
+﻿@model ModelEntities.CustomerModel
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = null;
+}
+
+<div>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="CustomerId" />
+        <input type="hidden" asp-for="PictureName" />
+        <input type="hidden" asp-for="Pictures" />
+        <input type="hidden" asp-for="Address" />
+        <input type="hidden" asp-for="Contact" />
+        <input type="hidden" asp-for="PurchaseDate" />
+        <input type="hidden" asp-for="CustomerName" />
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="List" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

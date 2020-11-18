@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - UserResponsive</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <img src="~/Photo/5e4cf42c-14f4-48c1-a444-d708c86bc3ec-scan2.jpeg" height="30" class="rounded-circle" width="30" />
+                <a class="navbar-brand" href="#" onclick="DetailsPopup(' @Url.Action("Details","Customer",Context.Request.Scheme)')"> @User.Identity.Name</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Customer" asp-action="Index">Home</a>
+                        </li>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Customer" asp-action="List">List Customers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Customer" asp-action="AddorEdit">Add Customer</a>
+                            </li>
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Customer" asp-action="ShowAllPicture">Pictures</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="nav navbar-top-links navbar-left">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                            <em class="fa fa-user-circle"></em>
+                        </a>
+                        <ul class="dropdown-menu dropdown-alerts">
+                            <li>
+                                <a href="#" onclick="DetailsPopup(' @Url.Action("Details","Customer",Context.Request.Scheme)')">
+                                    <div>
+                                        <em class="fa fa-user-plus"></em> My Profile
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="@Url.Action("ChangePassword","Account")">
+                                    <div>
+                                        <em class="fa fa-lock"></em> Change Password
+
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="@Url.Action("LogOut","Account")">
+                                    <div>
+                                        <em class="fa fa-key"></em> Logout
+
+                                    </div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="show-view">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"></h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - UserResponsive - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

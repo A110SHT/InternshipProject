@@ -1,0 +1,9 @@
+D:\Professional files\Work\SocialITWorld\UserResponsive\SQLHandlers\bin\Debug\netcoreapp3.1\SQLHandlers.deps.json
+D:\Professional files\Work\SocialITWorld\UserResponsive\SQLHandlers\bin\Debug\netcoreapp3.1\SQLHandlers.dll
+D:\Professional files\Work\SocialITWorld\UserResponsive\SQLHandlers\obj\Debug\netcoreapp3.1\SQLHandlers.csprojAssemblyReference.cache
+D:\Professional files\Work\SocialITWorld\UserResponsive\SQLHandlers\obj\Debug\netcoreapp3.1\SQLHandlers.AssemblyInfoInputs.cache
+D:\Professional files\Work\SocialITWorld\UserResponsive\SQLHandlers\obj\Debug\netcoreapp3.1\SQLHandlers.AssemblyInfo.cs
+D:\Professional files\Work\SocialITWorld\UserResponsive\SQLHandlers\bin\Debug\netcoreapp3.1\SQLHandlers.pdb
+D:\Professional files\Work\SocialITWorld\UserResponsive\SQLHandlers\obj\Debug\netcoreapp3.1\SQLHandlers.csproj.CoreCompileInputs.cache
+D:\Professional files\Work\SocialITWorld\UserResponsive\SQLHandlers\obj\Debug\netcoreapp3.1\SQLHandlers.dll
+D:\Professional files\Work\SocialITWorld\UserResponsive\SQLHandlers\obj\Debug\netcoreapp3.1\SQLHandlers.pdb

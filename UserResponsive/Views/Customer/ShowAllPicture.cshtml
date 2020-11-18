@@ -1,0 +1,27 @@
+﻿@model ModelEntities.CustomerModel
+
+@{
+    ViewData["Title"] = "ShowAllPicture";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Your Pictures</h1>
+
+<div>
+    <dl class="row">
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PictureName)
+        </dt>
+        <dd class="col-sm-10">
+            @foreach (var item in Model.Pictures)
+            {
+                <img src="~/Photo/@item" height="300" width="250" /><br /><br /><br />
+            }
+        </dd>
+
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-primary">Back</a>
+</div>

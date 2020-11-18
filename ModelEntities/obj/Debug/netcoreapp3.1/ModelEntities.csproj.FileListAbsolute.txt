@@ -1,0 +1,9 @@
+D:\Professional files\Work\SocialITWorld\UserResponsive\ModelEntities\bin\Debug\netcoreapp3.1\ModelEntities.deps.json
+D:\Professional files\Work\SocialITWorld\UserResponsive\ModelEntities\bin\Debug\netcoreapp3.1\ModelEntities.dll
+D:\Professional files\Work\SocialITWorld\UserResponsive\ModelEntities\obj\Debug\netcoreapp3.1\ModelEntities.AssemblyInfoInputs.cache
+D:\Professional files\Work\SocialITWorld\UserResponsive\ModelEntities\obj\Debug\netcoreapp3.1\ModelEntities.AssemblyInfo.cs
+D:\Professional files\Work\SocialITWorld\UserResponsive\ModelEntities\bin\Debug\netcoreapp3.1\ModelEntities.pdb
+D:\Professional files\Work\SocialITWorld\UserResponsive\ModelEntities\obj\Debug\netcoreapp3.1\ModelEntities.csprojAssemblyReference.cache
+D:\Professional files\Work\SocialITWorld\UserResponsive\ModelEntities\obj\Debug\netcoreapp3.1\ModelEntities.dll
+D:\Professional files\Work\SocialITWorld\UserResponsive\ModelEntities\obj\Debug\netcoreapp3.1\ModelEntities.pdb
+D:\Professional files\Work\SocialITWorld\UserResponsive\ModelEntities\obj\Debug\netcoreapp3.1\ModelEntities.csproj.CoreCompileInputs.cache

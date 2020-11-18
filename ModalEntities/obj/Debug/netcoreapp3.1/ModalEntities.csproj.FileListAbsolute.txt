@@ -1,0 +1,5 @@
+D:\Professional files\Work\SocialITWorld\UserResponsive\ModalEntities\bin\Debug\netcoreapp3.1\ModalEntities.deps.json
+D:\Professional files\Work\SocialITWorld\UserResponsive\ModalEntities\bin\Debug\netcoreapp3.1\ModalEntities.dll
+D:\Professional files\Work\SocialITWorld\UserResponsive\ModalEntities\obj\Debug\netcoreapp3.1\ModalEntities.csprojAssemblyReference.cache
+D:\Professional files\Work\SocialITWorld\UserResponsive\ModalEntities\obj\Debug\netcoreapp3.1\ModalEntities.AssemblyInfoInputs.cache
+D:\Professional files\Work\SocialITWorld\UserResponsive\ModalEntities\obj\Debug\netcoreapp3.1\ModalEntities.AssemblyInfo.cs
